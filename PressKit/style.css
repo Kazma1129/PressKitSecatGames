@@ -1,0 +1,132 @@
+body { background: #2b0c0c; }
+
+#prof { background: black;}
+
+.uk-container {
+background-color: #2b0c0c;
+}
+
+.container {
+  margin: 5%;
+  margin-bottom: 1%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 5%;
+}
+
+.one > img , .two > img , .three > img , .four > img  {
+border-radius: 14px;
+}
+
+ .professors-text-name {
+   text-align: center;
+   font-size: 1.2rem;
+   color: #ffd404;
+ }
+
+
+p, li, h1, h2 { color: #fa5c5c; }
+
+h1, h2 {
+font-weight: bolder;
+}
+
+ul > li > a:hover { color: #2b0c0c !important;  }
+
+
+.uk-nav-side>li>a {
+    color: #ff8181;
+}
+
+.uk-nav-side>li>a:hover, .uk-nav-side>li>a:focus {
+    background: rgba(0,0,0,0.03);
+    color: #fff !important;
+    /* box-shadow: inset 0 0 1px rgba(0,0,0,0.1); */
+    /* text-shadow: 0 -1px 0 #fff; */
+}
+
+.uk-responsive-width.iframe-container {
+margin: 8%;
+}
+body {
+	padding: 15px 0;
+	font-family: 'Proxima nova', sans-serif;
+	font-size: 0.9em;
+	line-height:1.6em;
+}
+
+img {
+	width: 100%;
+}
+
+#navigation h1.nav-header {
+	padding: 0 15px;
+	margin-bottom: 0;
+}
+
+#navigation a.nav-header {
+	padding: 5px 15px;
+	font-weight: bold;
+}
+
+#navigation ul.uk-nav {
+	padding: 15px 0;
+}
+
+#navigation p {
+	padding-bottom: 10px;
+}
+
+#navigation li.language-select select {
+	float: right;
+}
+
+#content h2 {
+}
+
+#content img.header {
+	margin-bottom: 20px;
+}
+
+#content ul {
+	list-style-type: square;
+}
+
+#content li.done {
+	color: #008000;
+	text-decoration: line-through;
+}
+
+#content div.images div {
+	padding-bottom: 25px;
+}
+
+#content p.images-text {
+	margin-top: -15px;
+}
+
+#content .iframe-container {
+	position: relative;
+	/* Magic! Makes sure the container is high enough to show the entire iframe
+	 * Thanks to http://andmag.se/2011/11/responsive-embeds/ */
+	padding-bottom: 56.5%;
+}
+
+#content iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 767px) {
+	h2 {
+		margin-top: 25px;
+	}
+}
